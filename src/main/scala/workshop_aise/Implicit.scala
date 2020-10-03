@@ -26,5 +26,4 @@ object Implicit {
     println(List("brett", "jerry", "kevin") contains "KEVIN")
     println(List("brett", "jerry", "kevin") containsIgnoreCase "KEVIN")
   }
-  {}
 }
