@@ -1,11 +1,8 @@
 package skt_20181218
 
-import org.junit.Test
+object Question2 {
 
-class Question2 {
-
-  @Test
-  def test(): Unit = {
+  def main(args: Array[String]) {
     println(solution("SMS messages ar really short"))
   }
 

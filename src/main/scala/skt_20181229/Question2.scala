@@ -1,11 +1,8 @@
 package skt_20181229
 
-import org.junit.Test
+object Question2 {
 
-class Question2 {
-
-  @Test
-  def test(): Unit = {
+  def main(args: Array[String]) {
     println(solution("Forget  CVs..Save time . x x"))
     println(solution("We test coders. Give us a try?"))
     println(solution("   We    test    coders.    Give    us    a    try   ?  "))

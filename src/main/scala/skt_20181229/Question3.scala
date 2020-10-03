@@ -1,11 +1,8 @@
 package skt_20181229
 
-import org.junit.Test
+object Question3 {
 
-class Question3 {
-
-  @Test
-  def test(): Unit = {
+  def main(args: Array[String]) {
     println(solution(Array(2, 1, 3, 5, 4)))
     println(solution(Array(2, 3, 4, 1, 5)))
     println(solution(Array(1, 3, 4, 2, 5)))

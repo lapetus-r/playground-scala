@@ -1,11 +1,8 @@
 package skt_20181218
 
-import org.junit.Test
+object Question1 {
 
-class Question1 {
-
-  @Test
-  def test(): Unit = {
+  def main(args: Array[String]) {
     val x = Array(0.00, 0.2, 0.33, 0.43, 0.63, 0.66, 1.00)
     val y = Array(0.00, 0.25, 0.25, 0.50, 0.50, 1.00, 1.00)
     println(solution(x, y))
